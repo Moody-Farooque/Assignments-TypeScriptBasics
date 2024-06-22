@@ -154,10 +154,10 @@
 
 // 16. More Guests: You just found a bigger dinner table, so now more space is
 // available. Think of three more guests to invite to dinner.
-let guestList=["Ahmed","Ali","Ahsan","Sabir","Babar"];
+//let guestList=["Ahmed","Ali","Ahsan","Sabir","Babar"];
 // let poppedGuestList = guestList.pop();
 // console.log(`our guest ${poppedGuestList} wont be able to make it to dinner Tommorrow night`);
-let firstUnshift=guestList.unshift("HAJJI"); 
+//let firstUnshift=guestList.unshift("HAJJI"); 
 // console.log(`Instead of ${poppedGuestList} we will be joined by ${guestList[0]} for Tommorrow Dinner `);
 // console.log(guestList);
 // guestList.map((item)=>console.log((item),  `You are coordially invited for the Tommorrow's dinner`));
@@ -167,13 +167,13 @@ let firstUnshift=guestList.unshift("HAJJI");
 // console.log(`${guestList}, we have space for three more people as we found a bigger dinner table `);
 
 // • Add one new guest to the beginning of your array.
-let secondUnshift = guestList.unshift("Kabeerah"); 
+//let secondUnshift = guestList.unshift("Kabeerah"); 
 // console.log(guestList);
 
 // • Add one new guest to the middle of your array.
 // let middleOfList = (guestList.length)/2
 // let middleUnshift = guestList.unshift("Kamran");// these didnt work probably i was doing some mistake
-guestList.splice(3,0, "Kamran")
+//guestList.splice(3,0, "Kamran")
 
 // console.log(guestList);
 // console.log(`${guestList}, We welcome you for dinner`);
@@ -183,7 +183,7 @@ guestList.splice(3,0, "Kamran")
 
 // • Use append() to add one new guest to the end of your list.
 
-guestList.push("Khalil Jibran");
+//guestList.push("Khalil Jibran");
 // console .log(guestList);
 
 
